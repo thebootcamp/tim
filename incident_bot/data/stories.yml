@@ -18,3 +18,17 @@ stories:
   - action: utter_report_malware
   - slot_was_set:
     - incident_type: malware
+- story: incident report with sentiment analysis
+  steps:
+  - intent: report_issue
+  - action: action_analyze_sentiment
+  - slot_was_set:
+    - sentiment: negative
+  - action: utter_acknowledge_issue
+- story: intent switching from phishing to malware
+  steps:
+  - intent: report_phishing
+  - action: action_analyze_sentiment
+  - action: utter_acknowledge_issue
+  - intent: ask_about_malware
+  - action: utter_provide_malware_info

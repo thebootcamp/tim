@@ -1,11 +1,5 @@
 version: "3.1"
 nlu:
-- intent: report_url
-  examples: |
-    - I clicked on a bad URL
-    - I clicked on a bad link
-    - This link does not look right
-    - How to report url
 - intent: report_phishing
   examples: |
     - I received a phishing email
@@ -29,3 +23,8 @@ nlu:
     - My [laptop](device) is infected with [malware](issue)
     - Detected a [virus](issue) on my [workstation](device)
     - My [desktop](device) has a [Trojan](issue)
+- intent: ask_about_malware
+  examples: |
+    - What can I do about malware?
+    - How do I remove a virus?
+    - Tell me about malware threats.
