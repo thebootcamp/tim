@@ -1,0 +1,8 @@
+{
+  "laptop": "laptop",
+  "malware": "malware",
+  "virus": "virus",
+  "workstation": "workstation",
+  "desktop": "desktop",
+  "trojan": "Trojan"
+}

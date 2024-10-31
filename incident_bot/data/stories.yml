@@ -1,0 +1,20 @@
+version: "3.1"
+stories:
+- story: report url
+  steps:
+  - intent: report_url
+  - action: utter_report_url
+  - slot_was_set:
+    - incident_type: url
+- story: report phishing
+  steps:
+  - intent: report_phishing
+  - action: utter_report_phishing
+  - slot_was_set:
+    - incident_type: phishing
+- story: report malware
+  steps:
+  - intent: report_malware
+  - action: utter_report_malware
+  - slot_was_set:
+    - incident_type: malware
