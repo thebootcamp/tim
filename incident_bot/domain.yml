@@ -14,11 +14,11 @@ responses:
   utter_goodbye:
     - text: "Please shut down your bot after as you exit."
   utter_report_url:
-    - text: "If it looks like you computer is encryping files, unplug the computer from the network. If nothing popping up, remove from network, run a virus scan and open a ticket with th  helpdesk"
+    - text: "Unplug the computer from the network. If nothing popping up, remove from network, run a virus scan and open a ticket with th  helpdesk"
   utter_report_phishing:
-    - text: "Thank you for reporting. Can you provide the sender's email or the suspicious link?"
+    - text: "Thank you for reporting. Click on report phishing button and report the message or call the helpdesk?"
   utter_report_malware:
-    - text: "Sorry to hear that. Please describe the malware detection and any actions you've taken."
+    - text: "Thank you for reporting, Unplug computer from the network and do not power it off. Call the helpdesk"
   utter_report_unauthorized_access:
     - text: "We'll assist you immediately. When did you notice the unauthorized access?"
 
